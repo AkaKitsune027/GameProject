@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XO Game</title>
+    <link rel="stylesheet" href="./sheet.css" />
+    <script src="./index.js"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300;1,300&display=swap");
+    </style>
+  </head>
+
+  <body>
+   
+    <main class="background">
+      <section class="title">
+        <h1>Tic-Tac-Toe Game</h1>
+      </section>
+
+      <section class="display">
+        player <span class="display-player X playerX">X</span>'s turn
+      </section>
+      
+      <section class="container">
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+      </section>
+
+      <section class="display announcer hide"></section>
+
+      <section class="controls">
+        <button id="reset">RESET BOARD</button>
+      </section>
+    </main>
+  </body>
+</html>
