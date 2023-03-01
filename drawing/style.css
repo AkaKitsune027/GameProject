@@ -1,0 +1,20 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    color: white;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+}
+
+#toolbar {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 70px;
+    background-color: black;
+}
